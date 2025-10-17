@@ -1,0 +1,40 @@
+# Offline Generator: Image / Chart / DOCX / PDF / Video
+
+This is a **fully offline generator** built with **Python and Streamlit**. It can generate:
+
+- Images with centered text
+- Bar charts from numeric data
+- DOCX files
+- PDF files
+- Video slides (text only, no audio)
+
+All outputs can be downloaded directly from the web interface.
+
+## Requirements
+
+```text
+streamlit==1.28.0
+Pillow==10.0.0
+matplotlib==3.8.0
+python-docx==0.8.11
+reportlab==3.5.68
+moviepy==2.0.0
+How to Run
+Install dependencies:
+
+pip install -r requirements.txt
+Run the Streamlit app:
+
+bash
+streamlit run app.py
+Open the browser and use the interface to generate content and download files.
+
+Notes
+Video generation does not include audio to ensure full offline compatibility.
+
+Each slide in the video lasts for the seconds you specify.
+
+Outputs are saved in the outputs/ folder.
+
+yaml
+

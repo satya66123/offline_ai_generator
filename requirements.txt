@@ -1,0 +1,12 @@
+Pillow==10.1.0
+matplotlib==3.8.0
+python-docx==0.8.11
+reportlab==4.4.4
+opencv-python==4.8.0.76
+ffmpeg-python==0.2.0
+numpy==1.26.0
+streamlit==1.28.0
+moviepy==2.0.0dev2
+pyttsx3==2.90
+pydub==0.25.1
+
